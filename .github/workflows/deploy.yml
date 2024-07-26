@@ -12,8 +12,8 @@ jobs:
   test:
     env:
       MONGODB_CLUSTER_ADDRESS: cluster.uat6ayq.mongodb.net
-      MONGODB_USERNAME: ${{ secrets.GITHUB_TOKEN.MONGODB_USERNAME}}
-      MONGODB_PASSWORD: ${{ secrets.GITHUB_TOKEN.MONGODB_PASSWORD}}
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME}}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD}}
       PORT: 8080
  
     environment: testing
